@@ -37,7 +37,7 @@ class _CurrencyConverterMaterialPage
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              result.toString(),
+             "INR ${result !=0 ? result.toStringAsFixed(2): result.toStringAsFixed(0)}",
               style: TextStyle(
                 fontSize: 55,
                 fontWeight: FontWeight.bold,
@@ -103,6 +103,7 @@ class _CurrencyConverterMaterialPage
           ],
         ),
       ),
+      
     );
   }
 }
