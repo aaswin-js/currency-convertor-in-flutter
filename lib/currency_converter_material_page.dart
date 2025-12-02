@@ -12,7 +12,7 @@ class _CurrencyConverterMaterialPage
   double result = 0;
   final TextEditingController textEditingController = TextEditingController();
   void convert() {
-    result = double.parse(textEditingController.text) * 150;
+    result = double.parse(textEditingController.text) * 80;
     setState(() {});
   }
 
